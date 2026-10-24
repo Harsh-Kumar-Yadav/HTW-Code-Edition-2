@@ -18,7 +18,7 @@ int main(void) {
 
         int next = first + second;
         first = second;
-        second = first;
+        second = next;
     }
     printf("\n");
 
