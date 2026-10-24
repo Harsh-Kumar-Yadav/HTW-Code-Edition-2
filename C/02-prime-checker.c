@@ -10,7 +10,7 @@ int main(void) {
         return 1;
     }
 
-    for (int divisor = 2; divisor * divisor < n; divisor++) {
+    for (int divisor = 2; divisor * divisor <= n; divisor++) {
         if (n % divisor == 0) {
             is_prime = 0;
             break;
