@@ -3,7 +3,7 @@
 correct_password = "python123"
 attempts_allowed = 3
 
-for attempt in range(1, attempts_allowed):
+for attempt in range(1, attempts_allowed + 1):
     password = input(f"Password (attempt {attempt}/{attempts_allowed}): ")
 
     if password == correct_password:
